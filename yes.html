@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="yes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="heart"></div>
+    <div class="text">I Love You Too</div>
+  </div>
+  
+  <script>
+    const heart = document.querySelector('.heart');
+const text = document.querySelector('.text');
+
+heart.addEventListener('mouseover', () => {
+  heart.style.transform = 'rotate(360deg)';
+});
+
+heart.addEventListener('mouseout', () => {
+  heart.style.transform = 'rotate(45deg)';
+});
+
+
+  </script>
+</body>
+</html>
